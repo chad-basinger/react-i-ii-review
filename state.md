@@ -3,10 +3,16 @@
 Answer these on your own, then compare answers as a group
 
 1.  What is state?
+  object stored on a component
+  *State is data that is managed by the component*
 
 2.  Where do you set initial state?
+  *Inside the class or in the constructor(inside Constructor is the better practice, using this.state)*
+
 
 3.  What method do you use to update state?
+ setState Method
+ *When we call the setState method, we need to send in an object that specifies our targeted properties that need changes along* *with their new values*
 
 ### Understand
 

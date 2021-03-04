@@ -3,23 +3,34 @@
 Answer these on your own, then compare answers as a group
 
 1.  What is React?
-
+  -Javascript library used to package all your structure, styling, and functionality together
+  *uses component based architecture and unidirectional data flow
+  *has it's own Virtual DOM
 2.  What is create-react-app?
-
+  -a FB owned terminal command - works with node, that builds the very basics for a react app to work
+  *Package that sets up a new React project*
+  *
 3.  What is Component Based Architecture?
+  *The concept of encapsulating individual pieces of code to bring together into a larger project/app*
 
 4.  What is JSX?
+  *It is the syntax that React uses (looks like HTML)*
+  *Eventually transpiled into regular JS function calls*
 
 5.  What is the virtual DOM?
+temporary DOM, without having us actually change the data. We can choose if/what to push from temporary DOM to the original DOM. speeds up the app using virtual DOM
+*Light-weight copy of the DOM, React updates the virtual DOM when any changes to a component are made, then uses the virtual DOM*
+*to decide what parts of the actual DOM to change, and ONLY updates pieces that need to be updated*
 
 6.  What is unidirectional (one-way) data flow?
-
+data flows down, actions flow up
+*Data can only flow one way to other parts of the application(e.g. parent to child using props)*
 ### Understand
 
 Discuss these questions in pairs if you have a 4-person group
 
 7.  Summarize what happens when you run `create-react-app my-app`
-
+  -terminal command that builds a react package, and names it my-app
 8.  Explain what this code does:
 
 ```jsx
