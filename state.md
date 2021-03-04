@@ -46,6 +46,11 @@ class LeadMentor extends Component {
   }
 }
 ```
+The code is creating a component called LeadMentor
+LeadMentor is displaying the questionsAnswered from it's state in return
+The user is able to increase the amount of questionsAnswered held in state by invoking the handleClick method
+When the state value for questionsAnswered gets updated by buttonClick the component renders, showing the updated number
+
 
 ### Apply
 
